@@ -98,3 +98,7 @@ end
 |> IO.inspect(label: "part one")
 
 # The answer for my inputs was 1337! Now I definitely don't feel bad staying up :P
+
+# for part 2 I need to save for each coord the total previous steps to get to
+# it across both paths - then get the intersections - then rather than sort
+# by manhattan distance, I need to sort by the total steps.
